@@ -48,7 +48,7 @@ public class Main extends Slime {
                 case 3:
                     if (rando.nextBoolean()) {
                         System.out.println("You successfully ran away!");
-                        //return;
+                        return;
                     }
                     else {
                         System.out.println("you failed to run away!");
